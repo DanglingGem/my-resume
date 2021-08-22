@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-size: 2.3rem;
+    font-weight: 500;
+}
+h2{
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+h3{
+    font-size: 1.6rem;
+    
+}
+h4{
+    font-size: 1.2rem;
+    font-weight: 300;
+    opacity: 85%;
+}
+p{
+    font-size: 16px;
+}
+
+li{
+    list-style: none;
+    font-size: 16px;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    background: #ffffff;
+    width: 100%;
+    
+}
+
+.container{
+    margin: auto;
+    width: 50%;
+    background: #00aeff;
+    border: 3px solid #191970;
+    box-shadow: 0px 4px 15px #626277;
+    border-radius: 6px;
+    
+}
+
+
+.logo{
+    display: flex;
+    margin: 2rem 0rem 0rem 2rem;
+    justify-content: space-around;
+
+}
+
+.logo img{
+    width: 30%;
+    height: 4rem;
+}
+
+
+.introduction{
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.introduction .contact-list{
+    margin-top: 1rem;
+}
+
+.hero-container{
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.about{
+    margin-top: 3.5rem;
+}
+
+.about h2{
+    margin-bottom: 0.5rem;
+}
+
+.about p{
+    margin: 0rem 4rem;
+    opacity: 85%;
+}
+
+.qualification{
+    margin: 3rem 0rem;
+}
+
+.qualification h2{
+    margin-bottom: 0.325rem;
+}
+
+.experience,
+.skills,
+.hobbies{
+    margin: 3rem 0rem;
+}
+
+.experience h2,
+.skills h2,
+.hobbies h2{
+    margin-bottom: 0.5rem;
+}
+
+.experience ul li,
+.skills ul li,
+.hobbies ul li{
+    margin: 1rem 0rem;
+    opacity: 85%;
+}
+
+.icon-list{
+    display: flex;
+    justify-content: center;
+}
+
+
+.icon-list li a .icons{
+    font-size: 25px;
+    margin-left: 1rem;
+    color: white;
+}
+
+.icon-list li a .icons:hover{
+    color:rgba(1, 1, 15, 0.8);
+}
+
+@media screen and (max-width: 375px){
+    .container{
+        width: 100%;
+    }
+
+    .logo img{
+        width: 40%;
+        height: 3rem;
+    }
+
+
+    .about p{
+        margin: 0rem 1.5rem;
+        
+    }
+
+    .experience ul li{
+        margin: 1rem 2rem;
+    }
+}
